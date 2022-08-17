@@ -64,6 +64,26 @@
 		    <artifactId>spark-streaming-kafka-0-10_2.12</artifactId>
 		    <version>3.3.0</version>
 		</dependency>
+		<dependency>
+	        <groupId>org.apache.spark</groupId>
+	        <artifactId>spark-sql-kafka-0-10_2.12</artifactId>
+	        <version>3.3.0</version>
+	    </dependency>
+	    <!-- https://mvnrepository.com/artifact/org.codehaus.janino/commons-compiler -->
+		<!-- <dependency>
+		    <groupId>org.codehaus.janino</groupId>
+		    <artifactId>commons-compiler</artifactId>
+		</dependency>
+		<dependency>
+		   <groupId>org.codehaus.janino</groupId>
+		   <artifactId>janino</artifactId>
+		   </dependency>-->
+		   <dependency>
+            <groupId>org.codehaus.janino</groupId>
+            <artifactId>janino</artifactId>
+            <version>3.0.8</version>
+        </dependency>
+
 	</dependencies>
 
 	<build>
